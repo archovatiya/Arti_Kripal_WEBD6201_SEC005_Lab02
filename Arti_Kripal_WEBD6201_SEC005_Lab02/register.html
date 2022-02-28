@@ -1,0 +1,75 @@
+<!-- Name : Arti Chovatiya, Kripal Bhatia -->
+<!-- File: register.html -->
+ <!-- Date: Feb 18, 2022 -->
+ <!DOCTYPE html>
+ <html>
+     
+     <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <title>Register</title>
+         <meta name="description" content="An interactive getting started guide for Brackets.">
+ <!--        stylesheets links -->
+         <link rel="stylesheet" href="./Content/app.css">
+     </head>
+     <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbarId">
+            <a class="navbar-brand" id="main_heading" href="#">WEBD6201- Lesson 1</a>
+ <!--        navigation bar -->
+         <!-- <h1 id="main_heading">WEBD6201- Lesson 1</h1> -->
+         
+         <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+ <!--            using  unorder list  with an lists and using nav function instead of the header-->
+         <ul>
+             <li><a href="./index.html">Home</a></li>
+             <li><a id="projectsNavbar" href="./products.html">Products</a></li>
+             <li><a href="./services.html">Services</a></li>
+             <li><a id="AboutusNavbar" href="./about.html">About Us</a></li>
+             <li><a href="./contact.html">Contact Us</a></li>
+             <li><a href="./login.html">Login</a></li>
+             
+             </ul>
+            </div>
+        </nav>
+<main class="container" id="mainContent">
+    <div class="row">        
+              <div class="login" id="contentArea">
+                  <h1 class="display-4">Register</h1>    
+                  <div id="content"></div>              
+                  <form id="registerForm" novalidate>
+                    <p class="hint-text">Create your own account. It's free and only takes a minute.</p>
+
+                    <div id="messageArea"></div>
+                          <input class="form-control" type="text" name="firstName" id="fName" placeholder="First Name" required>
+         
+                          <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+ 
+                          <input type="email" class="form-control" id="emailAddress" name="emailAddress" required
+                          value="" placeholder="Email">
+  
+                          <input type="password" class="form-control" id="password" name="password"  required
+                          value="" placeholder="Password">
+         
+                          <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"  required
+                          value="" placeholder="Confirm Password">                                                                                  
+      
+                      <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Register</button>     
+                  </form>
+                 
+              </div>
+              <p class="text-center text-muted small">
+                Already have an account? 
+                <a href="login.html">Sign in</a>
+              </p>
+        
+    </div>
+</main>
+        
+ <!--        footer section-->
+ <footer></footer>
+ <!--        script tag to link javsacript file with the pages -->
+         <script src="./Scripts/app.js"></script>
+         <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     </body>
+ </html>

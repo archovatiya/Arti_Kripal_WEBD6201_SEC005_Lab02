@@ -1,0 +1,87 @@
+<!-- Name : Arti Chovatiya, Kripal Bhatia -->
+<!-- File: index.html -->
+ <!-- Date: Feb 11, 2022 -->
+ <!DOCTYPE html>
+ <html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Login</title>
+      <meta name="description" content="An interactive getting started guide for Brackets.">
+<!--        stylesheets links -->
+      <link rel="stylesheet" href="./Content/app.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbarId">
+        <a class="navbar-brand" id="main_heading" href="#">WEBD6201- Lesson 1</a>
+<!--        navigation bar -->
+     <!-- <h1 id="main_heading">WEBD6201- Lesson 1</h1> -->
+     
+     <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+<!--            using  unorder list  with an lists and using nav function instead of the header-->
+     <ul>
+         <li><a href="./index.html">Home</a></li>
+         <li><a id="projectsNavbar" href="./products.html">Products</a></li>
+         <li><a href="./services.html">Services</a></li>
+         <li><a id="AboutusNavbar" href="./about.html">About Us</a></li>
+         <li><a href="./contact.html">Contact Us</a></li>
+         <li id="username_label" style="display: none;"></li>
+         <li><a href="./login.html">Login</a></li>
+         
+         </ul>
+        </div>
+    </nav>
+        
+      <main class="container" id="mainContent">
+        <div class="row">
+            <div class="offset-md-3 col-md-6 col-sm-12">
+              <div id="content"></div>                 
+                  <div class="login" id="contentArea">
+                      <h1 class="display-4">Login</h1>
+                      <form id="loginForm" novalidate>
+                        
+                        <div class="form-group">
+                          <div class="input-group">
+                            <span class="input-group-addon">
+                              <i class="fa fa-user">
+                              </i>
+                            </span>
+                            <input type="text" class="form-control" id="userName" name="userName"  required
+                            value="" placeholder="Enter your username"style="padding-bottom: 1em; margin-bottom: 1em; width: 50%;                                                                         ">
+                          </div>                         
+                        </div>
+                        <div class="form-group">
+                          <div class="input-group">
+                            <span class="input-group-addon">
+                              <i class="fa fa-lock">
+                              </i>
+                            </span>
+                            <input type="password" class="form-control" id="password" name="password"  required
+                            value="" placeholder="Enter your password" style="padding-bottom: 1em; margin-bottom: 1em; width: 50%;">
+                          </div>
+                         
+                        </div>                                        
+                        <div class="text-right">
+                          <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Login</button>
+                        </div>
+                      </form>                     
+                  </div>
+                  <p class="text-center text-muted small">
+                    Don't have an account? 
+                    <a href="register.html">Register Here!</a>
+                  </p>
+            </div>
+        </div>
+    </main>
+  
+  
+      <!-- Scripting Section -->
+      <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  
+      
+      
+      <script src="./Scripts/app.js"></script>
+  </body>
+  </html>

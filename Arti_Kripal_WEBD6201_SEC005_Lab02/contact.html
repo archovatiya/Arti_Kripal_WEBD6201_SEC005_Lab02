@@ -1,0 +1,75 @@
+<!-- Name : Arti Chovatiya, Kripal Bhatia -->
+<!-- File: contact.html -->
+<!-- Date: Feb 11, 2022 -->
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+<!--        stylesheets links -->
+        <link rel="stylesheet" href="./Content/app.css">
+        <script src="./Scripts/app.js"></script>
+        
+        <!-- <script src="Scripts/contact.js"></script> -->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" id="main_heading" href="#">WEBD6201- Lesson 1</a>
+ <!--        navigation bar -->
+         <!-- <h1 id="main_heading">WEBD6201- Lesson 1</h1> -->
+         
+         <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+ <!--            using  unorder list  with an lists and using nav function instead of the header-->
+         <ul>
+             <li><a href="./index.html">Home</a></li>
+             <li><a id="projectsNavbar" href="./products.html">Products</a></li>
+             <li><a href="./services.html">Services</a></li>
+             <li><a id="AboutusNavbar" href="./about.html">About Us</a></li>
+             <li><a href="./contact.html">Contact Us</a></li>
+             <li><a href="./login.html">Login</a></li>
+             
+             </ul>
+            </div>
+        </nav>
+        
+<!--        navigation bar code ends here -->
+<!--        section for the home intro using section instead of div for making it responsive in future-->
+
+            <div class="container">
+                
+                <div class="title"><h1>Contact Us</h1></div>
+                
+                  <form id = "myForm" action = "">
+                  
+                    <p><label class = "fixed" for = "name">Full Name:</label>
+                        <input type = "text" id = "name" placeholder = "Enter Full Name" required></p>
+            
+                     <p><label class = "fixed" for = "contactNum">Contact Number:</label>
+                        <input type = "text" id = "contactNum" placeholder = "Enter Contact Number"></p>
+                            
+                     <p><label class = "fixed" for = "email">Email:</label>
+                        <textarea id = "Email " placeholder = "Enter your Email"></textarea>     
+                        
+                        <p><label class = "fixed" for = "shortMessage">Short Message:</label>
+                            <textarea id = "shortMessage " placeholder = "Enter Short Message"></textarea>     
+                                                
+                        <button id="sendButton" type="submit">Submit</button>                         
+                        <button id="cancle" type="reset">Cancel</button>                                                  
+                         
+                  </form>
+                  <title>Show Contact List</title>
+                  <div class="message"></div>
+                
+            </div>
+            
+     
+ 
+        
+<!--        footer section-->
+        <footer></footer>
+<!--        script tag to link javsacript file with the pages -->
+
+    </body>
+</html>

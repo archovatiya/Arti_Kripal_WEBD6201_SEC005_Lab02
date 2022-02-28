@@ -1,0 +1,160 @@
+html{
+    background-color: azure;
+}
+body*{
+    margin: 0;
+    padding: 0;
+}
+
+#homeImg{
+    height: 20%;
+    width: 20%;
+}
+
+#project1Image{
+    height: 20%;
+    width: 20%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+#project3Image{
+    height: 30%;
+    width: 30%;     
+    text-align: center;
+}
+
+.projectName{
+    font-weight: bold;
+}
+
+#skill1Img{
+    height: 30%;
+    width: 30%;
+}
+#skill2Img{
+    height: 20%;
+    width: 20%;
+}
+#skill3Img{
+    height: 25%;
+    width: 25%;
+}
+
+#user1Img{
+    height: 15%;
+    width: 15%;  
+}
+
+#user1Info{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#user2Img{
+    height: 15%;
+    width: 15%;    
+}
+nav {
+    width: 100%;
+    background-color: gray;
+    overflow: auto;
+}
+
+#main_heading{
+    width: 50%;
+}
+
+
+ul {
+   padding: 0;
+    list-style:none;
+    margin-left: 50%;
+}
+
+li{
+    float: left;
+}
+
+#main_heading{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+nav a{
+    width: 100px;
+    display:inline-block;
+    /* padding: 10px 5px; */
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+}
+
+.login
+{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: lightgrey;
+    border-radius: .3rem;
+    height: 70vh;
+}
+
+.login input
+{
+    background-color: white;
+    border-color: darkgrey;
+    border-radius: .4em;
+}
+
+.input-group-addon:first-child
+{
+    border-right: 0;
+}
+
+.input-group-addon
+{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    border: 1px solid darkgrey;
+    border-radius: 4xpx; 
+}
+
+.input-group-addon .fa
+{
+    font-size: 18px;
+}
+
+.input-group .form-control
+{
+    position:relative;
+    z-index: 2;
+    float:left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.input-group .form-control:last-child
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-control{
+    width: 50%;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+#submitButton{
+    width: 50%;
+    float: left;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
